@@ -9,13 +9,9 @@
     "description": "This plugin add banners to your Sylius project",
     "license": "MIT",
     "require": {
-        "php": "^7.3",
-
-        "sylius/sylius": "~1.8.0 || ~1.9.0",
+        "php": "^7.4",
+        "sylius/sylius": "^1.10",
         "vich/uploader-bundle": "^1.6"
-    },
-    "conflict": {
-        "api-platform/core": "^2.6"
     },
     "require-dev": {
         "behat/behat": "^3.6.1",
@@ -33,13 +29,13 @@
         "lakion/mink-debug-extension": "^2.0.0",
         "phpspec/phpspec": "^7.0",
         "phpstan/extension-installer": "^1.0",
-        "phpstan/phpstan": "0.12.74",
-        "phpstan/phpstan-doctrine": "0.12.31",
+        "phpstan/phpstan": "0.12.90",
+        "phpstan/phpstan-doctrine": "0.12.39",
         "phpstan/phpstan-strict-rules": "^0.12.0",
         "phpstan/phpstan-webmozart-assert": "0.12.12",
         "phpunit/phpunit": "^9.5",
         "sensiolabs/security-checker": "^6.0",
-        "sylius-labs/coding-standard": "^3.1",
+        "sylius-labs/coding-standard": "^4.1",
         "symfony/browser-kit": "^4.4 || ^5.2",
         "symfony/debug-bundle": "^4.4 || ^5.2",
         "symfony/dotenv": "^4.4 || ^5.2",
