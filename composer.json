@@ -6,7 +6,7 @@
         "sylius-plugin",
         "sylius-banner"
     ],
-    "description": "This plugin add banners to your Sylius project",
+    "description": "This plugin add banners to your Sylius project, updated sylius version",
     "license": "MIT",
     "require": {
         "php": "^7.4",
